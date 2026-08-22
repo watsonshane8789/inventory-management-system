@@ -7,13 +7,13 @@ const {
     createProduct,
     updateProduct,
     deleteProduct,
-} = require('./controllers/productController');
-const validate = require('./middleware/validate');
+} = require('../controllers/productController');
+const validate = require('../middleware/validate');
 const {
     createProductRules,
     updateProductRules,
     idParamRule
-} = require('./validators/productValidator');
+} = require('../validators/productValidator');
 
 router.route('/')
     .get(getProducts)

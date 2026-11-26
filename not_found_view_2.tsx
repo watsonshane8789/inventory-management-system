@@ -28,11 +28,11 @@ export function NotFoundView() {
         <main className="not-found-view">
             <div className="not-found-view__stage">
                 <img className="not-found-view__icon" src={iconUrl} alt="" />
-
-                <p className="not-found-view__code" aria-hidden="true">
-                    404
-                </p>
             </div>
+
+            <p className="not-found-view__code" aria-hidden="true">
+                404
+            </p>
 
             <h1 className="not-found-view__title">Page not found</h1>
             <p className="not-found-view__text">
